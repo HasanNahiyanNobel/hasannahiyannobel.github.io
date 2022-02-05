@@ -1,0 +1,8 @@
+# Jetbrains configuration files
+.idea/
+
+# Python virtual environment
+venv/
+
+# Node modules
+node_modules/

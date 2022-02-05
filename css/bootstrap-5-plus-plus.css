@@ -1,0 +1,87 @@
+/*
+ * Custom CSS for this site.
+ */
+
+
+/******************************************************************************
+ * Scrollbar
+ *****************************************************************************/
+
+/* Width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(200, 200, 200, 0.5);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(50, 50, 50, 0.5);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(50, 50, 50, 0.75);
+}
+
+
+/******************************************************************************
+ * Text, fonts and unloaded div
+ *****************************************************************************/
+
+.justify-align {
+  text-align: justify;
+}
+
+.navbar, .container, .container-fluid {
+  font-family: 'Noto Serif Bengali', 'Lora', 'Noto Serif Devanagari', serif;
+}
+
+
+/******************************************************************************
+ * Orientations
+ *****************************************************************************/
+
+.center-of-page {
+  margin: 0;
+  position: absolute;
+  top: 50vh;
+  left: 50vw;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+
+/******************************************************************************
+ * Visibility and selections
+ *****************************************************************************/
+
+/* To initialize the divs which are supposed to be shown when JS is enabled */
+.js-disabled {
+  display: none;
+}
+
+/* For the selection colour of Firefox. */
+::-moz-selection {
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* For the selection colour of others. */
+::selection {
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* To disable selection. Taken from: https://stackoverflow.com/a/4407335 */
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}

@@ -1,0 +1,131 @@
+{% block meta %}
+{
+}
+{% endblock %}
+
+{% block content %}
+<!-- Onload Modal-->
+<div class="container">
+  <!-- Button to trigger the modal -->
+  <button class="d-none" data-bs-target="#info" data-bs-toggle="modal" id="i-mt" type="button"></button> <!-- `mt` means `modal-trigger` -->
+  <!-- Modal of info -->
+  <div aria-hidden="true" aria-labelledby="" class="modal fade" id="info" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">হ্যালো, পৃথিবী!</h5>
+          <button type="button" class="btn-close btn-sm" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          এই ওয়েবসাইট এখনো নির্মাণাধীন। আমার কোনো ধারণা নেই আপনি কেন এখানে এলেন। 🐸
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Main Div -->
+<div class="container">
+  <div class="text-center">
+    <img class="rounded-circle m-1" src="images/profile_photo.svg" alt="" width="250em">
+    <h3>হাসান নাহিয়ান নোবেল</h3>
+    <div class="small mb-2">
+      শিক্ষার্থী, কম্পিউটার বিজ্ঞান ও প্রকৌশল বিভাগ<br>
+      বাংলাদেশ প্রকৌশল বিশ্ববিদ্যালয় (বুয়েট)<br>
+    </div>
+    <div class="small mb-3">
+      [আমার কর্ম-অভিজ্ঞতা এখানে পাওয়া যাবে না। বিস্তারিত জানতে চাইলে <a href="https://www.linkedin.com/in/hasan-nahiyan-nobel" target="_blank">লিংকডইন <i class="bi bi-box-arrow-up-right small"></i></a> প্রোফাইল দেখুন।]
+    </div>
+
+    <div class="row justify-content-center">
+
+      <div class="col-sm-12 col-md-3 mb-2">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">ফ্রন্টএন্ড ডেভেলপমেন্ট</h5>
+            <p>আমার আগ্রহ ফ্রন্টএন্ডের কাজকর্মে, এবং দক্ষতা জাভাস্ক্রিপ্ট ও পাইথনে।</p>
+            <button data-bs-target="#fd" data-bs-toggle="modal" class="btn btn-outline-dark btn-sm stretched-link">বিস্তারিত</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-md-3 mb-2">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">লেখালেখি</h5>
+            <p>নোবেল লেখে না; যে লেখে—সে সুরম্য আর্য।</p>
+            <a href="https://shurommo-arzo.web.app" class="btn btn-outline-dark btn-sm stretched-link" target="_blank">
+              ওয়েবসাইট <i class="bi bi-box-arrow-up-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-md-3 mb-2">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">গ্রাফিক ডিজাইন</h5>
+            <p>নিজেকে ‘গ্রাফিক ডিজাইনার’ দাবি করাটা বাড়াবাড়ি হয়ে যাবে; তবে এই ব্যাপারে আমার আগ্রহ এবং সামান্য দক্ষতা আছে।</p>
+            <button data-bs-target="#gd" data-bs-toggle="modal" class="btn btn-outline-dark btn-sm stretched-link">বিস্তারিত</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+
+<!-- Modals -->
+<div class="container">
+
+  <!-- Modal of Frontend Development-->
+  <div aria-hidden="true" aria-labelledby="" class="modal fade" id="fd" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5>ফ্রন্টএন্ড ডেভেলপমেন্ট</h5>
+          <button type="button" class="btn-close btn-sm" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <ul>
+            <li>
+              পাবলিক ডোমেইনে আমার যেসব কাজ আছে—সেসবের রেপোজিটরি পাওয়া যাবে আমার <a href="https://github.com/HasanNahiyanNobel" target="_blank">গিটহাব প্রোফাইলে</a>।
+            </li>
+            <li>
+              পাবলিক ওয়েবসাইটের মধ্যে আমার উল্লেখযোগ্য কাজ
+              <a href="https://hasan-xray.com" target="_blank">হাসান এক্স-রে</a>
+              এবং
+              <a href="https://shurommo-arzo.web.app" target="_blank">সুরম্য আর্যের</a> ওয়েবসাইট।
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal of Graphic Design-->
+  <div aria-hidden="true" aria-labelledby="" class="modal fade" id="gd" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5>গ্রাফিক ডিজাইন</h5>
+          <button type="button" class="btn-close btn-sm" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="text-center mb-2">
+            <img src="images/adobe_illustrator_cc.svg" alt="Adobe Illustrator CC" width="50em">
+            <img src="images/autodesk_sketchbook.svg" alt="Autodesk Sketchbook Pro" width="50em">
+          </div>
+          অ্যাডব ইলাস্ট্রেটর ২০২২ এবং অটোডেস্ক স্কেচবুক প্রো—এই দুটো টুল ব্যবহার করে আমি ডিজাইনের কাজকর্ম করি।
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- Additional JS -->
+<script src="js/index_beta.min.js"></script>
+{% endblock %}

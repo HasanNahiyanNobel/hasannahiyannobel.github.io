@@ -27,6 +27,29 @@
   background: rgba(50, 50, 50, 0.75);
 }
 
+/******************************************************************************
+ * Links
+ *****************************************************************************/
+
+/* Unvisited */
+a:link {
+  color: #3FA2A0;
+}
+
+/* Visited */
+a:visited {
+  color: #3FA2A0;
+}
+
+/* Hovered */
+a:hover {
+  color: #225857;
+}
+
+/* Selected */
+a:active {
+  color: #4FBABA;
+}
 
 /******************************************************************************
  * Text, fonts and unloaded div
@@ -39,21 +62,6 @@
 .navbar, .container, .container-fluid {
   font-family: 'Noto Serif Bengali', 'Lora', serif;
 }
-
-
-/******************************************************************************
- * Orientations
- *****************************************************************************/
-
-.center-of-page {
-  margin: 0;
-  position: absolute;
-  top: 50vh;
-  left: 50vw;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
-
 
 /******************************************************************************
  * Visibility and selections

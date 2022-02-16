@@ -4,8 +4,45 @@
 {% endblock %}
 
 {% block content %}
-<div class="container center-of-page text-center">
-  <h1>হ্যালো, পৃথিবী!</h1>
-  <p>এই ওয়েবসাইট এখনো নির্মাণাধীন। আমার কোনো ধারণা নেই আপনি কেন এখানে এলেন। 🐸
+<!-- Main Div -->
+<div class="container">
+  <div class="text-center">
+
+    <img class="rounded-circle m-1" src="images/profile_photo.svg" alt="" width="250em">
+
+    <h3>হাসান নাহিয়ান নোবেল</h3>
+    <div class="small mb-2">
+      শিক্ষার্থী, কম্পিউটার বিজ্ঞান ও প্রকৌশল বিভাগ<br>
+      বাংলাদেশ প্রকৌশল বিশ্ববিদ্যালয় (বুয়েট)<br>
+    </div>
+
+    <div class="row justify-content-center">
+
+      <div class="col-sm-12 col-md-3 mb-2">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">কর্ম-অভিজ্ঞতার বিস্তারিত</h5>
+            <img src="images/logo_linkedin.svg" alt="LinkedIn Logo" width="100em">
+            <a href="https://www.linkedin.com/in/hasan-nahiyan-nobel" class="stretched-link" target="_blank"></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-md-3 mb-2">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">লেখালেখি</h5>
+            <img src="images/logo_shurommo_arzo.svg" alt="LinkedIn Logo" width="100em">
+            <a href="https://shurommo-arzo.web.app" class="stretched-link" target="_blank"></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
 </div>
+
+<!-- Additional JS -->
+<script src="js/index.min.js"></script>
 {% endblock %}

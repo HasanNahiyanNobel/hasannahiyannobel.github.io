@@ -114,10 +114,16 @@ for output_file in output_files:
         print('Deleted: ' + output_file)
 
 # Minify the script using html-minifier (https://www.npmjs.com/package/html-minifier)
-# os.system(
-#     'html-minifier --collapse-whitespace --minify-js true --no-html5 --remove-comments --remove-empty-attributes --remove-optional-tags --remove-redundant-attributes --file-ext html'
-# )
+os.system(
+    'html-minifier --collapse-whitespace --minify-js true --no-html5 --remove-comments --remove-empty-attributes --remove-optional-tags --remove-redundant-attributes --input-dir '
+    + OUTPUT_DIR + ' --output-dir ' + OUTPUT_DIR + ' --file-ext html')
 
 # Add copyright lines to the minified files
 for output_file in output_files:
     prepend_line(OUTPUT_DIR + '\\' + output_file, COPYRIGHT_LINE)
+
+# Move the files from output to root directory
+for output_file in output_files:
+    current_path = OUTPUT_DIR + '\\' + output_file
+    new_path = output_file
+    os.replace(current_path, new_path)

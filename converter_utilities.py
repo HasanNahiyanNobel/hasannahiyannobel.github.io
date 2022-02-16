@@ -5,7 +5,7 @@ Copyright © 2021-22 by Hasan Nahiyan Nobel.
 
 # Constants
 SOURCE_DIR = 'src'
-OUTPUT_DIR = '.'
+OUTPUT_DIR = 'out'
 BASE_FILE = SOURCE_DIR + '\\_base.html'
 GOOGLE_OWNERSHIP_VERIFICATION_FILE = ''  # TODO: Add this
 

@@ -1,8 +1,3 @@
-<!--
----- এখানে কী চাই? 🤨
----- এই ফাইলটা পাইথন ফ্রেমওয়ার্ক দিয়ে নির্মিত, এবং এইচটিএমএল মিনিফায়ার (এনপিএম) দিয়ে ক্ষুদ্রীকৃত।
----- অধিকার ২০২১-২২, হাসান নাহিয়ান নোবেল।
---->
 <!DOCTYPE html>
 <html lang="bn" prefix="og: https://ogp.me/ns#">
 
@@ -14,7 +9,8 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
   <!-- Title, OG and Twitter meta tags -->
-<title>হাসান নাহিয়ান নোবেল</title><meta property="og:title" content="হাসান নাহিয়ান নোবেল"><meta name="twitter:title" content="হাসান নাহিয়ান নোবেল"><meta name="description" content="ওয়েবসাইট: হাসান নাহিয়ান নোবেল..."><meta property="og:description" content="ওয়েবসাইট: হাসান নাহিয়ান নোবেল..."><meta name="twitter:description" content="ওয়েবসাইট: হাসান নাহিয়ান নোবেল..."><meta property="og:image" content="https://hasannahiyannobel.github.io/images/cover_web_preview.png"><meta name="twitter:image" content="https://hasannahiyannobel.github.io/images/cover_web_preview.png"><meta name="image" property="og:image" content="https://hasannahiyannobel.github.io/images/cover_web_preview.png"><meta name="author" content="হাসান নাহিয়ান নোবেল"><meta property="og:type" content="website"><meta property="og:url" content="https://hasannahiyannobel.github.io"><meta property="twitter:url" content="https://hasannahiyannobel.github.io"><meta property="twitter:domain" content="hasannahiyannobel.github.io"><meta name="twitter:card" content="summary_large_image">
+  {% block meta %}{% endblock %}
+
   <!-- CSS -->
   <link rel="stylesheet" href="css/bootstrap-5-customized.min.css">
   <link rel="stylesheet" href="css/bootstrap-5-plus-plus.min.css">
@@ -50,10 +46,7 @@
 
   <!-- Main block -->
   <div id="md" class="js-disabled d-none mb-4"> <!-- ID `md` an abbreviation for `main-div` -->
-<div class="container center-of-page text-center">
-  <h1>হ্যালো, পৃথিবী!</h1>
-  <p>এই ওয়েবসাইট এখনো নির্মাণাধীন। আমার কোনো ধারণা নেই আপনি কেন এখানে এলেন। 🐸
-</div>
+    {% block content %}{% endblock %}
   </div>
 
   <!-- JS -->

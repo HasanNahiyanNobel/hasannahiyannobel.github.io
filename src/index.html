@@ -41,7 +41,7 @@
           <div class="card-body">
             <h5 class="card-title">ফ্রন্টএন্ড ডেভেলপমেন্ট</h5>
             <p>আমার আগ্রহ ফ্রন্টএন্ডের কাজকর্মে, এবং দক্ষতা জাভাস্ক্রিপ্ট ও পাইথনে।</p>
-            <a href="#" class="btn btn-outline-dark btn-sm stretched-link">বিস্তারিত</a>
+            <button data-bs-target="#fd" data-bs-toggle="modal" class="btn btn-outline-dark btn-sm stretched-link">বিস্তারিত</button>
           </div>
         </div>
       </div>
@@ -51,8 +51,8 @@
           <div class="card-body">
             <h5 class="card-title">লেখালেখি</h5>
             <p>নোবেল লেখে না; যে লেখে—সে সুরম্য আর্য।</p>
-            <a href="https://shurommo-arzo.web.app/" class="btn btn-outline-dark btn-sm stretched-link" target="_blank">
-              ওয়েবসাইট&nbsp;<i class="bi bi-box-arrow-up-right"></i>
+            <a href="https://shurommo-arzo.web.app" class="btn btn-outline-dark btn-sm stretched-link" target="_blank">
+              ওয়েবসাইট <i class="bi bi-box-arrow-up-right"></i>
             </a>
           </div>
         </div>
@@ -63,7 +63,7 @@
           <div class="card-body">
             <h5 class="card-title">গ্রাফিক ডিজাইন</h5>
             <p>নিজেকে ‘গ্রাফিক ডিজাইনার’ দাবি করাটা বাড়াবাড়ি হয়ে যাবে; তবে এই ব্যাপারে আমার আগ্রহ এবং সামান্য দক্ষতা আছে।</p>
-            <a href="#" class="btn btn-outline-dark btn-sm stretched-link">পোর্টফোলিও</a>
+            <button data-bs-target="#gd" data-bs-toggle="modal" class="btn btn-outline-dark btn-sm stretched-link">পোর্টফোলিও</button>
           </div>
         </div>
       </div>
@@ -71,6 +71,52 @@
     </div>
 
   </div>
+</div>
+
+
+<!-- Modals -->
+<div class="container">
+
+  <!-- Modal of Frontend Development-->
+  <div aria-hidden="true" aria-labelledby="" class="modal fade" id="fd" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5>ফ্রন্টএন্ড ডেভেলপমেন্ট</h5>
+          <button type="button" class="btn-close btn-sm" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <ul>
+            <li>
+              পাবলিক ডোমেইনে আমার যেসব কাজ আছে—সেসবের রেপোজিটরি পাওয়া যাবে আমার <a href="https://github.com/HasanNahiyanNobel" target="_blank">গিটহাব প্রোফাইলে</a>।
+            </li>
+            <li>
+              পাবলিক ওয়েবসাইটের মধ্যে আমার উল্লেখযোগ্য কাজ
+              <a href="https://hasan-xray.com" target="_blank">হাসান এক্স-রে</a>
+              এবং
+              <a href="https://shurommo-arzo.web.app" target="_blank">সুরম্য আর্যের</a> ওয়েবসাইট।
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal of Graphic Design-->
+  <div aria-hidden="true" aria-labelledby="" class="modal fade" id="gd" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5>গ্রাফিক ডিজাইন</h5>
+          <button type="button" class="btn-close btn-sm" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          এই পোর্টফোলিও এখনো তৈরি করা হয়নি। 😐 অনুগ্রহ করে পরে আবার আসুন।
+        </div>
+      </div>
+    </div>
+  </div>
+
 </div>
 
 <!-- Additional JS -->

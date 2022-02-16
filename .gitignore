@@ -5,4 +5,7 @@
 venv/
 
 # Node modules
-node_modules/
+src/node_modules/
+
+# Temporary output directory
+out/

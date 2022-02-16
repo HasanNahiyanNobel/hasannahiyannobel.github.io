@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="bn" prefix="og: https://ogp.me/ns#">
+
+<!--suppress HtmlRequiredTitleElement -->
+<head>
+  <!-- Required meta tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Title, OG and Twitter meta tags -->
+  {% block meta %}{% endblock %}
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/bootstrap-5-customized.min.css">
+  <link rel="stylesheet" href="css/bootstrap-5-plus-plus.min.css">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Bengali:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico"/>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav id="mn" class="navbar sticky-top navbar-dark bg-dark mb-3"> <!-- ID `mn` is an abbreviation for `main-navbar` -->
+    <div class="container-fluid justify-content-center">
+      <a href="index.html" class="navbar-brand h1 mb-0">হাসান নাহিয়ান নোবেল</a>
+    </div>
+  </nav>
+
+  <!-- Block to be shown if JS is disabled -->
+  <div id="mnjd" class="container center-of-page text-center"> <!-- ID `mnjd` is an abbreviation for `main-no-js-div` -->
+    <h1>দুর্বুদ্ধির একশেষ</h1>
+    <p>জাভাস্ক্রিপ্ট ছাড়া এইসব পৃষ্ঠার দর্শন পাওয়া যাবে না—</p>
+  </div>
+
+  <!-- Spinner -->
+  <div id="ms" class="js-disabled center-of-page"> <!-- ID `ms` is an abbreviation for `main-spinner` -->
+    <div class="spinner-border" style="width: 3rem; height: 3rem;" role="status"><span class="visually-hidden">Loading...</span></div>
+  </div>
+
+  <!-- Main block -->
+  <div id="md" class="js-disabled d-none mb-4"> <!-- ID `md` an abbreviation for `main-div` -->
+    {% block content %}{% endblock %}
+  </div>
+
+  <!-- JS -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/bootstrap-5-plus-plus.min.js"></script>
+</body>
+
+</html>

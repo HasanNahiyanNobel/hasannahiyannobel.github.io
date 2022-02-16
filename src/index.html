@@ -4,11 +4,59 @@
 {% endblock %}
 
 {% block content %}
+<!-- Onload Modal-->
+<div class="container">
+  <!-- Button to trigger the modal -->
+  <button class="d-none" data-bs-target="#info" data-bs-toggle="modal" id="i-mt" type="button"></button> <!-- `mt` means `modal-trigger` -->
+  <!-- Modal of info -->
+  <div aria-hidden="true" aria-labelledby="" class="modal fade" id="info" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">হ্যালো, পৃথিবী!</h5>
+          <button type="button" class="btn-close btn-sm" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          এই ওয়েবসাইট এখনো নির্মাণাধীন। আমার কোনো ধারণা নেই আপনি কেন এখানে এলেন। 🐸
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Main Div -->
 <div class="container">
   <div class="text-center">
     <img class="rounded-circle p-4" src="images/profile_photo.svg" alt="" width="250em">
-    <h1>হ্যালো, পৃথিবী!</h1>
-    <p>এই ওয়েবসাইট এখনো নির্মাণাধীন। আমার কোনো ধারণা নেই আপনি কেন এখানে এলেন। 🐸
+    <div class="row justify-content-center">
+      <div class="col-sm-12 col-md-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">লেখালেখি</h5>
+            <a href="#" class="btn btn-outline-dark btn-sm stretched-link">বিশদ</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">লেখালেখি</h5>
+            <a href="#" class="btn btn-outline-dark btn-sm stretched-link">বিশদ</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">লেখালেখি</h5>
+            <a href="#" class="btn btn-outline-dark btn-sm stretched-link">বিশদ</a>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
+
+<!-- Additional JS -->
+<script src="js/index.min.js"></script>
 {% endblock %}

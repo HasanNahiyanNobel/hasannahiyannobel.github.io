@@ -1,0 +1,5 @@
+startEkhon()
+
+function startEkhon() {
+
+}

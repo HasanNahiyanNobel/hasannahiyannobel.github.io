@@ -4,12 +4,13 @@
 {% endblock %}
 
 {% block content %}
-<!-- Onload Modal --> <!-- TODO: Supress clicking outside this modal -->
+<!-- Onload Modal -->
 <div class="container">
   <!-- Button to trigger the modal -->
   <button type="button" class="d-none" data-bs-toggle="modal" data-bs-target="#ekhon-info" id="ekhon-mt"></button>
   <!-- Modal to request readers to use a headphone -->
-  <div aria-hidden="true" aria-labelledby="" class="modal fade" data-bs-keyboard="false" id="ekhon-info" tabindex="-1">
+  <div id="ekhon-info" class="modal fade" aria-hidden="true" aria-labelledby="" data-bs-backdrop="static"
+       data-bs-keyboard="false" tabindex="-1">
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
         <div class="modal-body text-center">

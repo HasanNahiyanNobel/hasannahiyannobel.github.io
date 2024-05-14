@@ -1,0 +1,20 @@
+/* Container of Video */
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative; /* Required for button positioning */
+}
+
+/* Play Button */
+.play-button {
+  position: absolute; /* Overlaps the video */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center positioning */
+  background-color: transparent; /* Optional: transparent background */
+  border: none; /* Optional: remove button border */
+  font-size: 5rem; /* Adjust font size as needed */
+  color: white; /* Optional: white color for visibility */
+  cursor: pointer; /* Indicate clickable button */
+}

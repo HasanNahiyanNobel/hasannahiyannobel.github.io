@@ -4,7 +4,7 @@
 {% endblock %}
 
 {% block content %}
-<!-- Onload Modal -->
+<!-- Onload Modal --> <!-- TODO: Supress clicking outside this modal -->
 <div class="container">
   <!-- Button to trigger the modal -->
   <button type="button" class="d-none" data-bs-toggle="modal" data-bs-target="#ekhon-info" id="ekhon-mt"></button>
@@ -32,8 +32,8 @@
   <video id="ekhon-intro-vid" src="videos/ekhon_lonesome_town.mp4"></video>
 </div>
 
-<!-- Main Div -->
-<div id="ekhon-md" class="container d-none">
+<!-- Main Div (Part 1) -->
+<div id="ekhon-md-1" class="container d-none">
   <div class="row justify-content-center">
     <div class="col col-md-10 col-lg-8 col-xl-7 justify-align">
       <h1 id="ekhon-title" class="text-start ekhon-entrance">এখন</h1>
@@ -55,11 +55,24 @@
             আছে তুমি আনমনা হয়ে গেসিলা আমার স্পষ্ট মনে আছে কারণ পাশে বসে ছিলাম—কেউ আমরা জন্ম নেইনি তখনো।</p>
         </div>
         <p>এই স্মার্তিক স্বপ্ন বা স্বাপ্নিক স্মৃতির কথা কি তোমার মনে পড়ে?</p>
-        <p>*[Overlay of merged childhood photos]*</p>
-        <p>*[EotFW image]*</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Main Div (Part 2) -->
+<div id="ekhon-md-2" class="video-container d-none mb-4 ekhon-entrance">
+  <video id="ekhon-mid-vid" src="videos/koto_gai.mp4" style="width: 100%;"></video>
+  <button class="play-button" type="button"><i class="bi bi-play-circle"></i></button>
+</div>
+
+<!-- Main Div (Part 3)-->
+<div id="ekhon-md-3" class="container d-none ekhon-entrance">
+  <div class="row justify-content-center">
+    <div class="col col-md-10 col-lg-8 col-xl-7 justify-align">
+      <div>
         <p>ডিআরএমসির দুপুরে তুমি আমার সাথে ক্রিকেট খেলসিলা। তোমার কলেজ নাম্বার নাইন ফোর সামথিং—শেষ দুইটা ডিজিট হারায়ে
-          গেসে
-          কোথায় যেন।</p>
+          গেসে কোথায় যেন।</p>
         <p>অ্যাট লিস্ট একটা যদি তোমার মনে পড়তো, পরেরটা আমি ডেফিনিটলি বলতে পারতাম।</p>
         <p>*[Screaming from* Long Long Long*]*</p>
         <p>*[Footnote (পরিশিষ্ট): Wednesday E01]*</p>

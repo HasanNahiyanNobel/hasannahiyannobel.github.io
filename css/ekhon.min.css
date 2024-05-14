@@ -1,1 +1,1 @@
-.video-container{display:flex;justify-content:center;align-items:center;position:relative}.play-button{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background-color:transparent;border:0;font-size:5rem;color:#fff;cursor:pointer}
+.video-container{display:flex;justify-content:center;align-items:center;position:relative}.play-btn{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background-color:transparent;border:0;font-size:5rem;color:#fff;cursor:pointer}

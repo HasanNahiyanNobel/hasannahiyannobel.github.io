@@ -7,7 +7,7 @@
 }
 
 /* Play Button */
-.play-button {
+.play-btn {
   position: absolute; /* Overlaps the video */
   top: 50%;
   left: 50%;

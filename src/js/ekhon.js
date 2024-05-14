@@ -52,7 +52,8 @@ function startEkhon() {
 
     // Trigger the modal which requests reader to use headphones
     window.onload = function () {
-        document.getElementById(`ekhon-mt`).click();
+        // document.getElementById(`ekhon-mt`).click();
+        postIntroVideoRoutine(); // TODO: Remove this debug call
     };
 
     // Remove navbar and base's main div padding while playing the video

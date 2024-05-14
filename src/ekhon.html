@@ -7,7 +7,7 @@
 <!-- Onload Modal -->
 <div class="container">
   <!-- Button to trigger the modal -->
-  <button type="button" class="d-none" data-bs-toggle="modal" data-bs-target="#ekhon-info" id="ekhon-mt"></button>
+  <button id="ekhon-mt" class="d-none" type="button" data-bs-toggle="modal" data-bs-target="#ekhon-info"></button>
   <!-- Modal to request readers to use a headphone -->
   <div id="ekhon-info" class="modal fade" aria-hidden="true" aria-labelledby="" data-bs-backdrop="static"
        data-bs-keyboard="false" tabindex="-1">
@@ -18,7 +18,7 @@
             হেডফোন ব্যবহার করা যেতে পারে।
           </div>
           <div>
-            <button id="ekhon-accha" type="button" class="btn btn-sm btn-outline-dark" data-bs-dismiss="modal">আচ্ছা
+            <button id="ekhon-accha" class="btn btn-sm btn-outline-dark" type="button" data-bs-dismiss="modal">আচ্ছা
             </button>
           </div>
         </div>
@@ -62,8 +62,8 @@
 </div>
 
 <!-- Main Div (Part 2) -->
-<div id="ekhon-md-2" class="video-container d-none mb-4 ekhon-entrance">
-  <video id="ekhon-mid-vid" src="videos/koto_gai.mp4" style="width: 100%;"></video>
+<div id="ekhon-md-2" class="video-container mb-4 d-none ekhon-entrance">
+  <video id="ekhon-mid-vid" style="width: 100%;" src="videos/koto_gai.mp4"></video>
   <button class="play-button" type="button"><i class="bi bi-play-circle"></i></button>
 </div>
 

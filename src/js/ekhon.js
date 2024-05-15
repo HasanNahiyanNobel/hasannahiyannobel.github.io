@@ -14,21 +14,16 @@ function startEkhon() {
     const btnModalOkay = document.getElementById(`ekhon-modal-okay`);
     const introVideoDiv = document.getElementById(`ekhon-intro`);
     const introVideo = document.getElementById(`ekhon-intro-vid`);
-    const mainDivs = [
-        document.getElementById(`ekhon-md-1`),
-        document.getElementById(`ekhon-md-2`),
-        document.getElementById(`ekhon-md-3`),
-    ]
-    const midVideoDiv = mainDivs[1];
+    const mainDiv = document.getElementById(`ekhon-main`);
+    const midVideoDiv = document.getElementById(`ekhon-mid-vid-div`);
     const midVideo = document.getElementById(`ekhon-mid-vid`);
-    const entranceElements = Array.from(document.getElementsByClassName(`ekhon-entrance`));
     const playButton = document.querySelector(`.play-btn`);
     const playButtonIconHTML = `<i class="bi bi-play-circle"></i>`;
+    const creditsDiv = document.getElementById(`ekhon-credits`);
 
     // Define the constant values
     const transitionTimeInMS = 2000;
     const transitionSpeedCurve = `linear`;
-    const entranceElementAppearanceIntervalInMS = 100; // TODO: Make this 1000
 
     // Define the state variables
     let arePaddingsInBaseState = true;
@@ -44,11 +39,11 @@ function startEkhon() {
     // Set the play button icon
     playButton.innerHTML += playButtonIconHTML;
 
-    // Make the entrance elements invisible and add transitions
-    entranceElements.forEach(element => {
-        element.style.opacity = `0`;
-        element.style.transition = `opacity ${transitionTimeInMS}ms ${transitionSpeedCurve}`;
-    });
+    // Make the main and credits div invisible and add transitions
+    mainDiv.style.opacity = `0`;
+    mainDiv.style.transition = `opacity ${transitionTimeInMS}ms ${transitionSpeedCurve}`;
+    creditsDiv.style.opacity = `0`;
+    creditsDiv.style.transition = `opacity ${transitionTimeInMS}ms ${transitionSpeedCurve}`;
 
     // Trigger the modal which requests reader to use headphones
     window.onload = function () {
@@ -72,19 +67,21 @@ function startEkhon() {
         introVideoDiv.classList.add(`d-none`);
         // Bring paddings to the base state
         switchPaddings();
-        // Make the story visible
-        mainDivs.forEach(mainDiv => {
-            mainDiv.classList.remove(`d-none`);
-        });
-        // Fade in the entrance elements
-        fadeInEntranceElements();
+        // Fade in the story
+        mainDiv.classList.remove(`visually-hidden`);
+        // mainDiv.style.opacity = `1`;
+        setTimeout(() => {
+            mainDiv.style.opacity = `1`;
+        }, 101); // TODO: Remove this debug timeout
         // Play "Koto Gai" by Shaanta when the reader clicks
         let isMidVideoDivListening = true;
         midVideoDiv.addEventListener(`click`, playAndPauseVideo);
-        // Stop the option to replay "Koto Gai" by Shaanta once the video ends
+        // Stop the option to replay "Koto Gai" by Shaanta once the video ends; show and scroll down to the credits
         midVideo.addEventListener(`ended`, function () {
             if (isMidVideoDivListening) {
                 midVideoDiv.removeEventListener(`click`, playAndPauseVideo);
+                creditsDiv.classList.remove(`visually-hidden`);
+                creditsDiv.style.opacity = `1`;
                 isMidVideoDivListening = false;
             }
         });
@@ -101,15 +98,6 @@ function startEkhon() {
             mainDivOfBase.classList.add(`mb-4`);
         }
         arePaddingsInBaseState = !arePaddingsInBaseState;
-    }
-
-    function fadeInEntranceElements() {
-        entranceElements.forEach((element, index) => {
-            let elementWillAppearAfterMS = entranceElementAppearanceIntervalInMS * (index + 1);
-            setTimeout(() => {
-                element.style.opacity = `1`;
-            }, elementWillAppearAfterMS);
-        });
     }
 
     function playAndPauseVideo() {

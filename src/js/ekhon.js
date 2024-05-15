@@ -74,14 +74,24 @@ function startEkhon() {
             mainDiv.style.opacity = `1`;
         }, 101); // TODO: Remove this debug timeout
         // Play "Koto Gai" by Shaanta when the reader clicks
-        let isMidVideoDivListening = true;
+        let isMidVideoDivListening = true; // Set a flag to track whether the click event listener is active
         midVideoDiv.addEventListener(`click`, playAndPauseVideo);
         // Stop the option to replay "Koto Gai" by Shaanta once the video ends; show and scroll down to the credits
         midVideo.addEventListener(`ended`, function () {
             if (isMidVideoDivListening) {
+                // Stop the option to replay the video
                 midVideoDiv.removeEventListener(`click`, playAndPauseVideo);
+                // Show the credits
                 creditsDiv.classList.remove(`visually-hidden`);
                 creditsDiv.style.opacity = `1`;
+                // Scroll to the bottom (where the credits are!), with a timeout to ensure that the credits are loaded
+                setTimeout(() => {
+                    document.documentElement.scrollTo({
+                        top: document.documentElement.scrollHeight,
+                        behavior: 'smooth'
+                    });
+                }, 50);
+                // Switch the flag
                 isMidVideoDivListening = false;
             }
         });

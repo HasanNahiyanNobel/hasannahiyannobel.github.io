@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3465a983-eadb-4caf-a501-b99cb8e52ff8" name="Changes" comment="Reorganized the basic structure.">
+    <list default="true" id="3465a983-eadb-4caf-a501-b99cb8e52ff8" name="Changes" comment="Added basic skeleton.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +104,7 @@
       <workItem from="1728316106844" duration="6797000" />
       <workItem from="1731415705953" duration="129000" />
       <workItem from="1731415837136" duration="989000" />
-      <workItem from="1731417385373" duration="6188000" />
+      <workItem from="1731417385373" duration="7800000" />
     </task>
     <task id="LOCAL-00001" summary="Created the basic layout for you, Pronoti.">
       <option name="closed" value="true" />
@@ -131,7 +130,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731417830087</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added basic skeleton.">
+      <option name="closed" value="true" />
+      <created>1731425144208</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1731425144208</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,7 +159,8 @@
     <MESSAGE value="Created the basic layout for you, Pronoti." />
     <MESSAGE value="Added text in Pronoti." />
     <MESSAGE value="Reorganized the basic structure." />
-    <option name="LAST_COMMIT_MESSAGE" value="Reorganized the basic structure." />
+    <MESSAGE value="Added basic skeleton." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added basic skeleton." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/hasannahiyannobel_github_io$converter_main.coverage" NAME="converter_main Coverage Results" MODIFIED="1728322310049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

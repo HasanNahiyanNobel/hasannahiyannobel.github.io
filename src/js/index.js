@@ -1,5 +1,0 @@
-startIndex();
-
-function startIndex() {
-
-}

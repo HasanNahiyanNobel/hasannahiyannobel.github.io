@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3465a983-eadb-4caf-a501-b99cb8e52ff8" name="Changes" comment="Added `favicon.ico`.">
-      <change beforePath="$PROJECT_DIR$/bootstrap5-customisations.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap5-customisations.min.css" beforeDir="false" />
+    <list default="true" id="3465a983-eadb-4caf-a501-b99cb8e52ff8" name="Changes" comment="Removed duplicate output files.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/additional-styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/additional-styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/additional-styles.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/additional-styles.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,6 +125,9 @@
       <workItem from="1731506034936" duration="184000" />
       <workItem from="1731506224610" duration="142000" />
       <workItem from="1731506378909" duration="5869000" />
+      <workItem from="1731516637762" duration="3000" />
+      <workItem from="1731516722858" duration="424000" />
+      <workItem from="1731517191959" duration="1941000" />
     </task>
     <task id="LOCAL-00001" summary="Created the basic layout for you, Pronoti.">
       <option name="closed" value="true" />
@@ -188,7 +193,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731515755581</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Removed duplicate output files.">
+      <option name="closed" value="true" />
+      <created>1731516206780</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1731516206780</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,7 +227,8 @@
     <MESSAGE value="Added a general to-do list." />
     <MESSAGE value="Added custom Bootstrap styling." />
     <MESSAGE value="Added `favicon.ico`." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added `favicon.ico`." />
+    <MESSAGE value="Removed duplicate output files." />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed duplicate output files." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/hasannahiyannobel_github_io$converter_main.coverage" NAME="converter_main Coverage Results" MODIFIED="1728322310049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

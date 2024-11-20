@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3465a983-eadb-4caf-a501-b99cb8e52ff8" name="Changes" comment="Added functionality to set and update colour theme to match the device theme.">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+    <list default="true" id="3465a983-eadb-4caf-a501-b99cb8e52ff8" name="Changes" comment=".">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/additional-styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap5-extensions.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/additional-styles.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap5-extensions.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap-extensions.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/bootstrap5-extensions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap-extensions.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/bootstrap5-extensions.min.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,12 +47,12 @@
   <component name="GitRewordedCommitMessages">
     <option name="commitMessagesMapping">
       <RewordedCommitMessageMapping>
-        <option name="originalMessage" value="Added `favicon.ico`." />
-        <option name="rewordedMessage" value="Added `favicon.ico`." />
+        <option name="originalMessage" value="Added functionality to set and update colour theme to match the device theme." />
+        <option name="rewordedMessage" value="Added functionality to set and update colour theme to match the device theme." />
       </RewordedCommitMessageMapping>
     </option>
     <option name="currentCommit" value="1" />
-    <option name="onto" value="11113fe2017d32a4da44f2334c92b532dd856cee" />
+    <option name="onto" value="81f9e2350a62245228ebee9150a0e02b32dfbea1" />
   </component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
@@ -133,7 +131,7 @@
       <workItem from="1731561458773" duration="80000" />
       <workItem from="1731610619802" duration="12000" />
       <workItem from="1731610636419" duration="642000" />
-      <workItem from="1732119563871" duration="1622000" />
+      <workItem from="1732119563871" duration="1695000" />
     </task>
     <task id="LOCAL-00001" summary="Created the basic layout for you, Pronoti.">
       <option name="closed" value="true" />
@@ -231,7 +229,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732120914712</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary=".">
+      <option name="closed" value="true" />
+      <created>1732121238196</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1732121238196</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,6 +266,7 @@
     <MESSAGE value="Removed duplicate output files." />
     <MESSAGE value="Added project icon." />
     <MESSAGE value="Used monospace font as default." />
+    <MESSAGE value="." />
     <MESSAGE value="Added functionality to set and update colour theme to match the device theme." />
     <option name="LAST_COMMIT_MESSAGE" value="Added functionality to set and update colour theme to match the device theme." />
   </component>

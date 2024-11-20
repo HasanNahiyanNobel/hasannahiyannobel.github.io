@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3465a983-eadb-4caf-a501-b99cb8e52ff8" name="Changes" comment="Removed duplicate output files.">
+    <list default="true" id="3465a983-eadb-4caf-a501-b99cb8e52ff8" name="Changes" comment="Added functionality to set and update colour theme to match the device theme.">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/additional-styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/additional-styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/additional-styles.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/additional-styles.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap-extensions.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/bootstrap5-extensions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap-extensions.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/bootstrap5-extensions.min.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +21,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -33,7 +35,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="67b9eb64ccce441fccbd02428bc1d50314dca08a" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -127,7 +129,11 @@
       <workItem from="1731506378909" duration="5869000" />
       <workItem from="1731516637762" duration="3000" />
       <workItem from="1731516722858" duration="424000" />
-      <workItem from="1731517191959" duration="1941000" />
+      <workItem from="1731517191959" duration="2464000" />
+      <workItem from="1731561458773" duration="80000" />
+      <workItem from="1731610619802" duration="12000" />
+      <workItem from="1731610636419" duration="642000" />
+      <workItem from="1732119563871" duration="1622000" />
     </task>
     <task id="LOCAL-00001" summary="Created the basic layout for you, Pronoti.">
       <option name="closed" value="true" />
@@ -201,7 +207,31 @@
       <option name="project" value="LOCAL" />
       <updated>1731516206780</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added project icon.">
+      <option name="closed" value="true" />
+      <created>1731521185659</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1731521185659</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Used monospace font as default.">
+      <option name="closed" value="true" />
+      <created>1731521207108</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1731521207108</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Added functionality to set and update colour theme to match the device theme.">
+      <option name="closed" value="true" />
+      <created>1732120914712</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1732120914712</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,7 +258,10 @@
     <MESSAGE value="Added custom Bootstrap styling." />
     <MESSAGE value="Added `favicon.ico`." />
     <MESSAGE value="Removed duplicate output files." />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed duplicate output files." />
+    <MESSAGE value="Added project icon." />
+    <MESSAGE value="Used monospace font as default." />
+    <MESSAGE value="Added functionality to set and update colour theme to match the device theme." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added functionality to set and update colour theme to match the device theme." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/hasannahiyannobel_github_io$converter_main.coverage" NAME="converter_main Coverage Results" MODIFIED="1728322310049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

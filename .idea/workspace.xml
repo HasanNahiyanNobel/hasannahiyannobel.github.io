@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3465a983-eadb-4caf-a501-b99cb8e52ff8" name="Changes" comment="Changed the name of CSS extensions for homogeneity.">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap5-extensions.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/utilities/set-theme.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap5-extensions.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/utilities/set-theme.min.js" afterDir="false" />
+    <list default="true" id="3465a983-eadb-4caf-a501-b99cb8e52ff8" name="Changes" comment="Created a basic type effect.">
+      <change beforePath="$PROJECT_DIR$/js/utilities/add-type-effect.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/utilities/add-type-effect.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +133,7 @@
       <workItem from="1732119563871" duration="1794000" />
       <workItem from="1732190263824" duration="4299000" />
       <workItem from="1732195595910" duration="1081000" />
-      <workItem from="1732196684131" duration="1749000" />
+      <workItem from="1732196684131" duration="2426000" />
     </task>
     <task id="LOCAL-00001" summary="Created the basic layout for you, Pronoti.">
       <option name="closed" value="true" />
@@ -251,7 +247,23 @@
       <option name="project" value="LOCAL" />
       <updated>1732121338791</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Added a utilities directory for JS files.">
+      <option name="closed" value="true" />
+      <created>1732198488449</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1732198488449</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Created a basic type effect.">
+      <option name="closed" value="true" />
+      <created>1732199088954</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1732199088954</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,7 +295,9 @@
     <MESSAGE value="." />
     <MESSAGE value="Added functionality to set and update colour theme to match the device theme." />
     <MESSAGE value="Changed the name of CSS extensions for homogeneity." />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed the name of CSS extensions for homogeneity." />
+    <MESSAGE value="Added a utilities directory for JS files." />
+    <MESSAGE value="Created a basic type effect." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created a basic type effect." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/hasannahiyannobel_github_io$converter_main.coverage" NAME="converter_main Coverage Results" MODIFIED="1728322310049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

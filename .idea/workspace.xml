@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3465a983-eadb-4caf-a501-b99cb8e52ff8" name="Changes" comment="Created a basic type effect.">
+    <list default="true" id="3465a983-eadb-4caf-a501-b99cb8e52ff8" name="Changes" comment=".">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/utilities/add-type-effect.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/utilities/add-type-effect.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/utilities/add-type-effect.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/utilities/add-type-effect.min.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,12 +46,12 @@
   <component name="GitRewordedCommitMessages">
     <option name="commitMessagesMapping">
       <RewordedCommitMessageMapping>
-        <option name="originalMessage" value="Added functionality to set and update colour theme to match the device theme." />
-        <option name="rewordedMessage" value="Added functionality to set and update colour theme to match the device theme." />
+        <option name="originalMessage" value="Created a basic type effect." />
+        <option name="rewordedMessage" value="Created a basic type effect." />
       </RewordedCommitMessageMapping>
     </option>
     <option name="currentCommit" value="1" />
-    <option name="onto" value="81f9e2350a62245228ebee9150a0e02b32dfbea1" />
+    <option name="onto" value="9acd59770822171ee5d87b7c1e105a792bfd7c8e" />
   </component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
@@ -133,7 +135,7 @@
       <workItem from="1732119563871" duration="1794000" />
       <workItem from="1732190263824" duration="4299000" />
       <workItem from="1732195595910" duration="1081000" />
-      <workItem from="1732196684131" duration="2426000" />
+      <workItem from="1732196684131" duration="4249000" />
     </task>
     <task id="LOCAL-00001" summary="Created the basic layout for you, Pronoti.">
       <option name="closed" value="true" />
@@ -263,7 +265,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732199088954</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary=".">
+      <option name="closed" value="true" />
+      <created>1732199122114</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1732199122114</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,10 +302,10 @@
     <MESSAGE value="Removed duplicate output files." />
     <MESSAGE value="Added project icon." />
     <MESSAGE value="Used monospace font as default." />
-    <MESSAGE value="." />
     <MESSAGE value="Added functionality to set and update colour theme to match the device theme." />
     <MESSAGE value="Changed the name of CSS extensions for homogeneity." />
     <MESSAGE value="Added a utilities directory for JS files." />
+    <MESSAGE value="." />
     <MESSAGE value="Created a basic type effect." />
     <option name="LAST_COMMIT_MESSAGE" value="Created a basic type effect." />
   </component>

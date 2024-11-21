@@ -18,7 +18,6 @@ function setThemeBasedOnDevice() {
 // Set the initial theme.
 setThemeBasedOnDevice();
 
-// Listen for changes in the device's color scheme and update the theme
-// dynamically.
+// Listen for changes in the device's color scheme and update the theme.
 window.matchMedia(`(prefers-color-scheme: dark)`).
     addEventListener(`change`, setThemeBasedOnDevice);
